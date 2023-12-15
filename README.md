@@ -10,7 +10,7 @@ train_cnnvae_splitChannels_conditional_lord_randNoise_reverse.ipynb - inference 
 
 ## APOLLO without modality-specific latent spaces
 train_cnnvae_splitChannels_conditional_lord_randNoise_fullyJoint.ipynb - step 1, latent optimization  
-
+train_cnnvae_splitChannels_conditional_lord_randNoise_reverse_fullyJoint.ipynb - step 2, inference
 
 ## APOLLO trained with one-step training as an autoencoder
 train_cnnvae_splitChannels_conditional.ipynb
