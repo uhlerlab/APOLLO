@@ -32,6 +32,10 @@ train_cnnvae_splitChannels_conditional_lord_randNoise_reverse.ipynb - inference 
 train_cnnvae_splitChannels_conditional_lord_randNoise_fullyJoint.ipynb - step 1, latent optimization  
 train_cnnvae_splitChannels_conditional_lord_randNoise_reverse_fullyJoint.ipynb - step 2, inference
 
+### APOLLO without shared decoders
+train_cnnvae_splitChannels_conditional_lord_randNoise_correctBCE_noSharedRecon.ipynb - step 1, latent optimization (without decoders mapping from the shared latent space to reconstruction)
+train_cnnvae_splitChannels_conditional_lord_randNoise_reverse_correctBCEvalLoss_noSharedRecon.ipynb - step 2, inference
+
 ### APOLLO trained with one-step training as an autoencoder
 train_cnnvae_splitChannels_conditional.ipynb
 
@@ -61,10 +65,19 @@ plot_nmco_centerPCs_percentiles_protein_allfeatures_sampling_groupNMCO.ipynb - p
 train_clf_conditions_nmco_sampling.ipynb - train phenotype classifier using all represeentative morphological features  
 train_clf_conditions_nmco_sampling_featureAblation.ipynb - train phenotype classifier with feature ablation  
 plot_clf_conditions_nmco_sampling.ipynb - plot results 
+#### Predicting gH2AX shared and modality-specific features using chromatin images
+train_pred_chromatinImg2proteinFeatures.ipynb - train regression models
+compareImg2Features.ipynb - plot results
 
 ### Image preprocessing
 preprocess.ipynb
 
 ### Benchmarking
 benchmarking_inpainting.ipynb - compare to the previous image inpainting method for protein image prediction: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007348
+
+## Application to paired scRNAseq and protein abundance data (CITE-seq)
+./citeseq directory
+
+## Application to Human Protein Atlas data
+./hpa contains all three notebooks for the three models trained using each pair of chromain, ER, and microtubule markers.
 
