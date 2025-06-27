@@ -4,7 +4,7 @@
 2. In a new conda environment, install the required packages: conda create --name <env> --file requirement.txt
 
 ## Overview
-This repository contains notebooks demonstrating the application of APOLLO to four different applications, including two applications to paired sequencing-based modalities and two applications to multiplexed imaging data. Each notebook contains detailed instructions for adapting the notebook to apply to user-provided data, including how to preprocess data for training. For paired sequencing-based modalities, please refer to the section "Application to paired scRNA-seq and scATAC-seq". For multiplexed imaging data, please refer to the section "Application to paired chromatin and protein images".
+This repository contains notebooks demonstrating the application of APOLLO to four different applications, including two applications to paired sequencing-based modalities and two applications to multiplexed imaging data. Each notebook contains detailed instructions for applying to user-provided data, including how to preprocess data for training. For paired sequencing-based modalities, please refer to the section "Application to paired scRNA-seq and scATAC-seq". For multiplexed imaging data, please refer to the section "Application to paired chromatin and protein images".
 ### Preprocessing
 - Preprocessing scATAC-seq data: atac_rna/preprocess_shareseq.ipynb
 - Normalization of scRNA-seq and scATAC-seq data for training input: atac_rna/train_lord_randNoise_sharedRecon_shareseq_filter_bce_morefilter.ipynb
