@@ -93,3 +93,5 @@ benchmarking_inpainting.ipynb - compare to the previous image inpainting method 
 ## Application to Human Protein Atlas data
 ./hpa contains all three notebooks for the three models trained using each pair of chromain, ER, and microtubule markers.
 
+## Simulation
+./simulation contains the results of applying APOLLO to 5 simulated datasets with known ground truth of disentanglement.
